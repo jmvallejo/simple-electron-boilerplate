@@ -1,0 +1,16 @@
+{
+  "name": "simple-electron-boilerplate",
+  "version": "1.0.0",
+  "description": "Simple Electron project that loads an html file",
+  "main": "src/index.js",
+  "repository": "https://github.com/jmvallejo/simple-electron-boilerplate",
+  "author": "Juan Manuel Vallejo",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.8.4",
+    "electron-debug": "^1.5.0"
+  },
+  "scripts": {
+    "start": "electron src/index.js"
+  }
+}
